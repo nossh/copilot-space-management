@@ -1,0 +1,11 @@
+```markdown
+# OctoAcme Project Management — Overview
+
+This repository documents OctoAcme's project management practices used across cross-functional projects. We run projects through a lightweight lifecycle: Initiation (create a one‑pager, identify stakeholders and success metrics), Planning (prioritize backlog, estimate work, identify dependencies and risks), Execution (implement in small shippable increments with PR and CI gates), Release (deploy with smoke tests, rollback plans, and release notes), and Retrospective (capture learnings and track improvements). Key artifacts include the Project One‑pager, roadmap/release plan, backlog items with acceptance criteria, a risk register, and retrospective action items.
+
+Workflows emphasize iterative delivery and clear ownership. Initiatives start with a one‑pager and a decision gate, then move to planning where work is broken into shippable backlog items that meet a Definition of Done. The team uses a project board (Backlog → Ready → In Progress → In Review → QA → Done) and a disciplined PR workflow: small PRs, link to the issue and acceptance criteria, CI checks, and required approvals. Releases are classified (patch/minor/major) and require pre‑release checks (passing CI and security scans, release notes, a rollback plan, and post‑deploy verification).
+
+Roles and communication are explicit: Project Managers coordinate delivery, risks, and communications; Product Managers own outcomes and prioritize the backlog; Developers implement and test; QA validates acceptance criteria; and stakeholders provide input and approvals. Cadence includes daily standups for blockers, weekly delivery syncs and PM–PdM alignment, sprint demos/reviews, and monthly stakeholder updates. Escalation paths are documented from the team level up to project sponsors, plus a security incident runbook for incidents.
+
+Quality assurance is built into each step: unit and integration tests, end‑to‑end smoke tests for critical flows, automated security scanning in CI, and manual QA when needed. Acceptance criteria and a Definition of Done define "shippable." Progress is monitored with velocity/burndown metrics and dashboards for errors/latency/usage, and continuous improvement is enforced through timeboxed retrospectives that produce prioritized, tracked action items.
+```
